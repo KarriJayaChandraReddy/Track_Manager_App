@@ -1,0 +1,65 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+  background: #f0f0f0;
+}
+
+.track-details {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #c92a2a;
+}
+
+.edit-form input {
+  display: block;
+  width: 100%;
+  margin: 6px 0;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.edit-form form {
+  margin-top: 10px;
+}
+
+.edit-form button {
+  background-color: #457b9d;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.edit-form button:hover {
+  background-color: #1d3557;
+}
+
